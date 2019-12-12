@@ -3,6 +3,8 @@ Call Assembly to calculate an amount based on real time exchange rate data.  Wit
 data that might be in a different currency, say GBP (British Pound), and convert the amount to the US Dollar (USD) equivalent
 based on the real time exchange rate, served by an external exchange rate API (in this case, ratesapi.io).  Download the supported version of this assembly here:  http://square9zgm.sftp.wpengine.com/dlls/Square9.CA.ExchangeRates.dll
 
+Referencable 3 digit currency codes may be found here:  https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html
+
 The example demonstrates both a Call Assembly for GlobalCapture or GlobalAction, and a console application that demonstrates
 how to test an assembly without having to setup and wait for workflows to run.  In general, it's a good practice to test your Assembly 
 in an actual workflow before deploying to production, but for initial development, the test console is a far more efficient approach.
