@@ -1,7 +1,7 @@
 # Square9.CA.ExchangeRates
 Call Assembly to calculate an amount based on real time exchange rate data.  With this tool, customers can work with amount
 data that might be in a different currency, say GBP (British Pound), and convert the amount to the US Dollar (USD) equivalent
-based on the real time exchange rate, served by an external exchange rate API (in this case, ratesapi.io).
+based on the real time exchange rate, served by an external exchange rate API (in this case, ratesapi.io).  Download the supported version of this assembly here:  http://square9zgm.sftp.wpengine.com/dlls/Square9.CA.ExchangeRates.dll
 
 The example demonstrates both a Call Assembly for GlobalCapture or GlobalAction, and a console application that demonstrates
 how to test an assembly without having to setup and wait for workflows to run.  In general, it's a good practice to test your Assembly 
